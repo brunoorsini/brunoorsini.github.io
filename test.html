@@ -9,7 +9,6 @@
     <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
     <meta http-equiv="pragma" content="no-cache" />
 
-    <meta property="og:title" content="this is my title" />
 
 </head>
 <body>
@@ -19,8 +18,10 @@
 
     $( document ).ready(function() {
 
-      console.log('ho my god');
-      $("head").append('<meta property="og:image" content="http://www.plurio.net/cms/cms.php?cmspage=./media/load/picture.php&id=31176&sec=babf9a6115b5866f80dcc832f05ed593&value=639,360&which=cutted&color=culturelu" />');
+      $("head").append('<meta property="og:image" content="http://www.plurio.net/media/usr617/pictures/bf666c08d83b745863918fa87f53e006.jpg"/>');
+      $("head").append('<meta property="og:title" content="Titre ajouté avec jQuery pour facebook, cool !"/>');
+      $("head").append('<meta property="twitter:title" content="Titre ajouté avec jQuery pour twitter, cool !"/>');
+      $("head").append('<meta property="twitter:image" content="http://www.plurio.net/media/usr617/pictures/bf666c08d83b745863918fa87f53e006.jpg"/>');
 
     });
 
