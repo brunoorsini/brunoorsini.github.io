@@ -14,10 +14,15 @@
     	<h1>Test de mini-site</h1>
     	<p>La gestion sous mandat</p>
     	<div class="solgest-embed">
-		<script src="http://dev.solgest.bdlpub.nm:8080/html/js/liferay/widget.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			Liferay.Widget({ url: 'http://dev.solgest.bdlpub.nm:8080/widget/bank/solgest/home/-/journalarticleplayerportlet_WAR_journalarticleplayerportlet'});
-		</script>
+	<script src="http://dev.solgest.bdlpub.nm:8080/html/js/liferay/widget.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	Liferay.Widget(
+		{
+			url:'http://dev.solgest.bdlpub.nm:8080/widget/bank/solgest/home/-/journalarticleplayerportlet_WAR_journalarticleplayerportlet'
+			,scrolling:'no'
+		}
+	);
+	</script>
 	</div>
   </body>
 </html>
