@@ -1,0 +1,191 @@
+
+@media print {
+* {
+	transition:none !important;
+}
+}
+
+.menu-homepage-only {
+   display:none;
+}
+
+.section {
+    overflow: visible;
+}
+
+.aui a[href]:after {
+   display:none; 
+}
+
+.image_overlay_dark {
+   display:none;
+}
+
+#column-footer {
+   display:none;
+}
+
+.button-retour-liste-fonds {
+   display:none !important;
+}
+
+.image-bg-header {
+	height:150px !important;
+	background:none !important;
+}
+
+.image-bg-header .layer {
+   padding-top:100px;
+}
+
+#nl-subscription, .form_newsletter_text, #nl-subscription a, .newsletter, #nl-link-form, .close-nl, .form_newsletter_description {
+	display:none !important;
+}
+
+.slideshow-carousel {
+	overflow:hidden;
+}
+
+.flickity-button, .flickity-page-dots {
+	display:none;
+}
+
+.topic-hashtag-list {
+	display:none !important;
+}
+
+#logo {
+	position:absolute !important;
+}
+
+.mini-logo {
+	display:none !important;
+}
+
+.maxi-logo.light {
+	display:none !important;
+}
+
+.maxi-logo.dark {
+	display:block !important;
+}
+
+.citation {
+	border:0px !important;
+}
+
+.plyr__video-wrapper {
+	padding-bottom:0px !important;
+}
+
+.plyr button {
+	display:none !important;
+}
+
+#open-burgermenu {
+	display:none !important;
+}
+
+#toTopBtn {
+	display:none !important;
+}
+
+.aui .section.image-bg-header h1 {
+	font-size:26px !important;
+}
+
+.column {
+	margin-top: 35px !important;
+}
+
+.footernav {
+	display:none !important;
+}
+
+.full-width.bgcolor1, .full-width.bgcolor2, .full-width.bgcolor3, .full-width.bgcolor4, .full-width.bgcolor5 {
+	margin-top:0px !important;
+}
+
+.graph_container {
+	margin-top:0px !important;
+}
+
+.aui .graph_icon {
+	line-height:inherit !important;
+}
+
+#column-contact, #column-langues {
+	position:inherit !important;
+}
+
+.topics-index-wrapper {
+	display:none !important;
+}
+
+.parent-page {
+	color:black !important;
+}
+
+h1 {
+	color: black !important;
+}
+
+ .blu-homepage #column-1{
+	display:none !important;
+}
+
+
+.blu-homepage .videofullscreen {
+	display:none !important;
+}
+
+.blu-homepage .pub_item.left {
+	display:none !important;
+}
+
+.blu-homepage .pub_item.right {
+	width:100% !important;
+	background-image:url(https://upload.wikimedia.org/wikipedia/en/4/48/Blank.JPG) !important;
+}
+
+.blu-homepage .fp-controlArrow.fp-prev, .blu-homepage .fp-controlArrow.fp-next {
+	display:none !important;
+}
+
+.blu-homepage .offre .slide:nth-child(1), .blu-homepage .offre .slide:nth-child(2) {
+	display:none !important;
+}
+
+.blu-homepage .quote_container {
+	margin-top: 13% !important;
+}
+
+.blu-homepage .managers .slide_text_container {
+	padding-top: 20% !important;
+}
+
+.blu-homepage .slide.managers .slide_manager_quote {
+	margin:0px !important;
+}
+
+
+.blu-homepage .manager2, .blu-homepage .manager3, .blu-homepage .manager4, .blu-homepage .manager5, .blu-homepage .manager6 {
+	display:none !important;
+}
+
+
+.blu-homepage .topics .slide:nth-child(2) {
+	display:none !important;
+}
+
+.blu-homepage .news .slide:nth-child(2), .blu-homepage .news .slide:nth-child(3), .blu-homepage .news .slide:nth-child(4), .blu-homepage .news .slide:nth-child(5), .blu-homepage .news .slide:nth-child(6), .blu-homepage .news .slide:nth-child(7) {
+	display:none !important;
+}
+
+.blu-homepage .journal-content-article  {
+	display:block !important;
+}
+
+#cookies-policy-notification-msg {
+	display:none !important;
+}
