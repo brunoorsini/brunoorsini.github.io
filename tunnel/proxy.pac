@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 
-	if (shExpMatch(host, "devproxy.prod.apps.bdl") || shExpMatch(host, "authservicesext.dev.apps.bdl"))
+	if (shExpMatch(host, "devproxy.prod.apps.bdl") || shExpMatch(host, "authservicesext.dev.apps.bdl") || shExpMatch(host, "watsblu.*"))
 		return "DIRECT";
 
 	if (shExpMatch(host, "*.apps.sebp") || shExpMatch(host, "*.apps.bdl")   || shExpMatch(host, "*.devzone.sebp*"))
