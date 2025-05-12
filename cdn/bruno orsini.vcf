@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Orsini;Bruno;;;
+FN:Bruno Orsini
+ORG:nouvelle MARQUE;
+TITLE:Directeur technique | Associé
+EMAIL;type=INTERNET;type=WORK;type=pref:b.orsini@nouvellemarque.com
+TEL;type=WORK;type=pref:+33 4 95 04 32 43
+NOTE:Une note.
+END:VCARD
